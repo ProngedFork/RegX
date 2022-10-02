@@ -27,10 +27,11 @@ A collection of Regex strings that I use during testing.
 | Generic Secret | ```[s\|S][e\|E][c\|C][r\|R][e\|E][t\|T].*['\|\"][0-9a-zA-Z]{32,45}['\|\"]``` |
 | GitHub | ```[g\|G][i\|I][t\|T][h\|H][u\|U][b\|B].*['\|\"][0-9a-zA-Z]{35,40}['\|\"]``` |
 | GitHub Access Token | ```([a-zA-Z0-9_-]*:[a-zA-Z0-9_-]+@github.com*)$``` |
-| Google API Key | ```AIza[0-9A-Za-z\\-_]{35}``` |
+| Google Cloud API Key | ```AIza[0-9A-Za-z\\-_]{35}``` |
 | Google Cloud Platform OAuth | ```[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com``` |
 | Google Cloud Platform Service Account | ```\"type\": \"service_account\"``` |
 | Google OAuth Access Token | ```ya29\\.[0-9A-Za-z\\-_]+``` |
+| Google OAuth Key | ```[0-9]+-[0-9A-Za-z_]{32}\.apps\.googleusercontent\.com``` |
 | Heroku API Key | ```[h\|H][e\|E][r\|R][o\|O][k\|K][u\|U].*[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}``` |
 | IP Address | ```(([0-9]\|[1-9][0-9]\|1[0-9]{2}\|2[0-4][0-9]\|25[0-5])\\.){3}([0-9]\|[1-9][0-9]\|1[0-9]{2}\|2[0-4][0-9]\|25[0-5])``` |
 | JSON Web Token | ```(?i)^((?=.*[a-z])(?=.*[0-9])(?:[a-z0-9_=]+\\.){2}(?:[a-z0-9_\\-\\+\/=]*))$``` |
