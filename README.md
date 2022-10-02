@@ -1,6 +1,6 @@
 # RegX
 
-A collection of Regex strings that I use during testing.
+RegX is a collection of Regex strings gathered from various publicly available sources that can be used for pentesting, source code review, and bug hunting.
 
 | Product | Regex String |
 | - | - |
