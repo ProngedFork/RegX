@@ -65,7 +65,7 @@ A collection of Regex strings that I use during testing.
 | Private SSH key | ```^.*_ecdsa``` |
 | SSH configuration file | ```\.?ssh/config$``` |
 | Potential Cryptographic Private Key | ```^key(pair)?$``` |
-| Shell command history file | ```\.?(bash_|zsh_|sh_|z)+history``` |
+| Shell command history file | ```\.?(bash_\|zsh_\|sh_\|z)+history``` |
 | MySQL client command history file | ```(\.)?mysql_history``` |
 | PostgreSQL client command history file | ```(\.)?psql_history``` |
 | PostgreSQL password file | ```(\.)?pgpass``` |
@@ -79,16 +79,16 @@ A collection of Regex strings that I use during testing.
 | S3cmd configuration file | ```\.?s3cfg``` |
 | AWS CLI credentials file | ```\.?aws/credentials``` |
 | SFTP connection configuration file | ```sftp-config(\.json)?``` |
-| T command-line Twitter client configuration file | ```/\.?trc[\W]+``` |
-| Shell configuration file | ```\.?(bash|zsh|csh)rc``` |
-| Shell profile configuration file | ```\.?(bash_|zsh_)+profile``` |
-| Shell command alias configuration file | ```\.?(bash_|zsh_)+aliases``` |
+| Twitter client configuration file | ```/\.?trc[\W]+``` |
+| Shell configuration file | ```\.?(bash\|zsh\|csh)rc``` |
+| Shell profile configuration file | ```\.?(bash_\|zsh_)+profile``` |
+| Shell command alias configuration file | ```\.?(bash_\|zsh_)+aliases``` |
 | PHP configuration file | ```config(\.inc)?\.php``` |
-| GNOME Keyring database file | ```key(store|ring)[\W]+``` |
+| GNOME Keyring database file | ```key(store\|ring)[\W]+``` |
 | KeePass password manager database file | ```\.kdbx?``` |
 | SQL dump file | ```\.sql(dump)?``` |
 | Apache htpasswd file | ```\.?htpasswd``` |
-| Configuration file for auto-login process | ```(\.|_)?netrc``` |
+| Configuration file for auto-login process | ```(\.\|_)?netrc``` |
 | Rubygems credentials file | ```\.?gem/credentials``` |
 | Tugboat DigitalOcean management tool configuration | ```\.?tugboat``` |
 | DigitalOcean doctl command-line client configuration file | ```doctl/config\.yaml``` |
@@ -98,7 +98,7 @@ A collection of Regex strings that I use during testing.
 | Docker configuration file | ```\.?dockercfg``` |
 | NPM configuration file | ```\.?npmrc``` |
 | Environment configuration file| ```\.env``` |
-| Picatic API key | ```sk_(live|test)_[0-9a-z]{32}``` |
+| Picatic API key | ```sk_(live\|test)_[0-9a-z]{32}``` |
 | Square Access Token | ```sq0atp-[0-9A-Za-z\-_]{22}``` |
 | Square OAuth Secret | ```sq0csp-[0-9A-Za-z\-_]{43}``` |
 | PayPal/Braintree Access Token | ```access_token\$production\$[0-9a-z]{16}\$[0-9a-f]{32}``` |
@@ -111,12 +111,12 @@ A collection of Regex strings that I use during testing.
 | AWS ARN | ```arn:aws:organizations::\d{12}:account\/o-[a-z0-9]{10,32}\/\d{12}``` |
 | AWS Secret Access Key | ```(?<![A-Za-z0-9/+=])[A-Za-z0-9/+=]{40}(?![A-Za-z0-9/+=])``` |
 | AWS Session Token | ```(?<![A-Za-z0-9/+=])[A-Za-z0-9/+=]{16,}(?<![A-Za-z0-9/+=])``` |
-| Sauce Token | ```(?i)sauce.{0,50}("|'|`)?[0-9a-f-]{36}("|'|`)?``` |
-| SonarQube Docs API Key | ```(?i)sonar.{0,50}("|'|`)?[0-9a-f]{40}("|'|`)?```|
+| Sauce Token | ```(?i)sauce.{0,50}("\|'\|`)?[0-9a-f-]{36}("\|'\|`)?``` |
+| SonarQube Docs API Key | ```(?i)sonar.{0,50}("\|'\|`)?[0-9a-f]{40}("\|'\|`)?```|
 | StackHawk API Key | ```hawk\.[0-9A-Za-z\-_]{20}\.[0-9A-Za-z\-_]{20}``` |
 | Heroku Key | ```(?i)heroku(.{0,20})?[''"][0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}[''"]``` |
 | Linkedin Client ID | ```(?i)linkedin(.{0,20})?(?-i)[''"][0-9a-z]{12}[''"]``` |
 | LinkedIn Secret Key | ```(?i)linkedin(.{0,20})?[''"][0-9a-z]{16}[''"]``` |
-| Authorization Bearer | ```Bearer\s[\d|a-f]{8}-([\d|a-f]{4}-){3}[\d|a-f]{12}``` |
+| Authorization Bearer | ```Bearer\s[\d\|a-f]{8}-([\d\|a-f]{4}-){3}[\d\|a-f]{12}``` |
 | Authorization Splunk | ```Splunk\s(\{){0,1}[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}(\}){0,1}``` |
 | Authorization Bearer | ```Bearer\s[A-Za-z0-9\-_=]+\.[A-Za-z0-9\-_=]+(\.[A-Za-z0-9\-_.+/=]+)?``` |
