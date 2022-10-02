@@ -89,6 +89,24 @@ A collection of Regex strings that I use during testing.
 | Apache htpasswd file | ```\.?htpasswd``` |
 | Configuration file for auto-login process | ```(\.|_)?netrc``` |
 | Rubygems credentials file | ```\.?gem/credentials``` |
+| Tugboat DigitalOcean management tool configuration | ```\.?tugboat``` |
+| DigitalOcean doctl command-line client configuration file | ```doctl/config\.yaml``` |
+| git-credential-store helper credentials file | ```\.?git-credentials``` |
+| Git configuration file | ```\.?gitconfig``` |
+| Chef private key | ```\.?chef/(.*)\.pem``` |
+| Docker configuration file | ```\.?dockercfg``` |
+| NPM configuration file | ```\.?npmrc``` |
+| Environment configuration file| ```\.env``` |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
 | | |
 | | |
 | | |
