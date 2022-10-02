@@ -50,6 +50,7 @@ A collection of Regex strings that I use during testing.
 | Square OAuth Secret | ```sq0csp-[0-9A-Za-z\\-_]{43}``` |
 | SSH DSA Private_Key | ```-----BEGIN DSA PRIVATE KEY-----``` |
 | SSH EC Private Key | ```-----BEGIN EC PRIVATE KEY-----``` |
+| Stripe API Key | ```(?:r\|s)k_[live\|test]_[0-9a-zA-Z]{24}``` |
 | Stripe API Key | ```sk_live_[0-9a-zA-Z]{24}``` |
 | Stripe Restricted API Key | ```rk_live_[0-9a-zA-Z]{24}``` |
 | Twilio API Key | ```SK[0-9a-fA-F]{32}``` |
