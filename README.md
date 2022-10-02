@@ -68,14 +68,14 @@ A collection of Regex strings that I use during testing.
 | MySQL client command history file | ```(\.)?mysql_history``` |
 | PostgreSQL client command history file | ```(\.)?psql_history``` |
 | PostgreSQL password file | ```(\.)?pgpass``` |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
+| Ruby IRB console history file | ```(\.)?irb_history```|
+| Pidgin chat client account configuration file | ```\.?purple/accounts\.xml``` |
+| Hexchat/XChat IRC client server list configuration file | ```\.?xchat2?/servlist.conf``` |
+| Irssi IRC client configuration file | ```\.?irssi/config``` |
+| Recon-ng web reconnaissance framework API key database | ```\.?recon-ng/keys\.db``` |
+| DBeaver SQL database manager configuration file | ```\.?dbeaver-data-sources(-[0-9]+)?\.xml``` |
+| Mutt e-mail client configuration file | ```\.?muttrc``` |
+| S3cmd configuration file | ```\.?s3cfg``` |
 | | |
 | | |
 | | |
