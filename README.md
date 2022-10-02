@@ -58,3 +58,7 @@ A collection of Regex strings that I use during testing.
 | Twitter ClientID | ```[t\|T][w\|W][i\|I][t\|T][t\|T][e\|E][r\|R](.{0,20})?['\"][0-9a-z]{18,25}``` |
 | Twitter OAuth | ```[t\|T][w\|W][i\|I][t\|T][t\|T][e\|E][r\|R].*['\|\"][0-9a-zA-Z]{35,44}['\|\"]``` |
 | Twitter Secret Key | ```[t\|T][w\|W][i\|I][t\|T][t\|T][e\|E][r\|R](.{0,20})?['\"][0-9a-z]{35,44}``` |
+| Private SSH key | ```^.*_rsa``` |
+| Private SSH key | ```^.*_dsa``` |
+| Private SSH key | ```^.*_ed25519``` |
+| Private SSH key | ```^.*_ecdsa``` |
