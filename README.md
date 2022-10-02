@@ -62,3 +62,39 @@ A collection of Regex strings that I use during testing.
 | Private SSH key | ```^.*_dsa``` |
 | Private SSH key | ```^.*_ed25519``` |
 | Private SSH key | ```^.*_ecdsa``` |
+| SSH configuration file | ```\.?ssh/config$``` |
+| Potential Cryptographic Private Key | ```^key(pair)?$``` |
+| Shell command history file | ```\.?(bash_|zsh_|sh_|z)+history``` |
+| MySQL client command history file | ```(\.)?mysql_history``` |
+| PostgreSQL client command history file | ```(\.)?psql_history``` |
+| PostgreSQL password file | ```(\.)?pgpass``` |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
