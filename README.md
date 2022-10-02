@@ -98,22 +98,25 @@ A collection of Regex strings that I use during testing.
 | Docker configuration file | ```\.?dockercfg``` |
 | NPM configuration file | ```\.?npmrc``` |
 | Environment configuration file| ```\.env``` |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
+| Picatic API key | ```sk_(live|test)_[0-9a-z]{32}``` |
+| Square Access Token | ```sq0atp-[0-9A-Za-z\-_]{22}``` |
+| Square OAuth Secret | ```sq0csp-[0-9A-Za-z\-_]{43}``` |
+| PayPal/Braintree Access Token | ```access_token\$production\$[0-9a-z]{16}\$[0-9a-f]{32}``` |
+| Amazon MWS Auth Token | ```amzn\.mws\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}``` |
+| SendGrid API Key | ```SG\.[0-9A-Za-z\-_]{22}\.[0-9A-Za-z\-_]{43}``` |
+| Slack Token | ```(xox[pboa]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32})``` |
+| Slack Webhook | ```https://hooks.slack.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24}``` |
+| NuGet API Key | ```oy2[a-z0-9]{43}``` |
+| AWS Access Key ID | ```(?<![A-Z0-9])[A-Z0-9]{20}(?![A-Z0-9])``` |
+| AWS ARN | ```arn:aws:organizations::\d{12}:account\/o-[a-z0-9]{10,32}\/\d{12}``` |
+| AWS Secret Access Key | ```(?<![A-Za-z0-9/+=])[A-Za-z0-9/+=]{40}(?![A-Za-z0-9/+=])``` |
+| AWS Session Token | ```(?<![A-Za-z0-9/+=])[A-Za-z0-9/+=]{16,}(?<![A-Za-z0-9/+=])``` |
+| Sauce Token | ```(?i)sauce.{0,50}("|'|`)?[0-9a-f-]{36}("|'|`)?``` |
+| SonarQube Docs API Key | ```(?i)sonar.{0,50}("|'|`)?[0-9a-f]{40}("|'|`)?```|
+| StackHawk API Key | ```hawk\.[0-9A-Za-z\-_]{20}\.[0-9A-Za-z\-_]{20}``` |
+| Heroku Key | ```(?i)heroku(.{0,20})?[''"][0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}[''"]``` |
+| Linkedin Client ID | ```(?i)linkedin(.{0,20})?(?-i)[''"][0-9a-z]{12}[''"]``` |
+| LinkedIn Secret Key | ```(?i)linkedin(.{0,20})?[''"][0-9a-z]{16}[''"]``` |
+| Authorization Bearer | ```Bearer\s[\d|a-f]{8}-([\d|a-f]{4}-){3}[\d|a-f]{12}``` |
+| Authorization Splunk | ```Splunk\s(\{){0,1}[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}(\}){0,1}``` |
+| Authorization Bearer | ```Bearer\s[A-Za-z0-9\-_=]+\.[A-Za-z0-9\-_=]+(\.[A-Za-z0-9\-_.+/=]+)?``` |
