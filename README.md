@@ -76,19 +76,19 @@ A collection of Regex strings that I use during testing.
 | DBeaver SQL database manager configuration file | ```\.?dbeaver-data-sources(-[0-9]+)?\.xml``` |
 | Mutt e-mail client configuration file | ```\.?muttrc``` |
 | S3cmd configuration file | ```\.?s3cfg``` |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
+| AWS CLI credentials file | ```\.?aws/credentials``` |
+| SFTP connection configuration file | ```sftp-config(\.json)?``` |
+| T command-line Twitter client configuration file | ```/\.?trc[\W]+``` |
+| Shell configuration file | ```\.?(bash|zsh|csh)rc``` |
+| Shell profile configuration file | ```\.?(bash_|zsh_)+profile``` |
+| Shell command alias configuration file | ```\.?(bash_|zsh_)+aliases``` |
+| PHP configuration file | ```config(\.inc)?\.php``` |
+| GNOME Keyring database file | ```key(store|ring)[\W]+``` |
+| KeePass password manager database file | ```\.kdbx?``` |
+| SQL dump file | ```\.sql(dump)?``` |
+| Apache htpasswd file | ```\.?htpasswd``` |
+| Configuration file for auto-login process | ```(\.|_)?netrc``` |
+| Rubygems credentials file | ```\.?gem/credentials``` |
 | | |
 | | |
 | | |
